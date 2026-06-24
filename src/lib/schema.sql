@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS applications(
+    id INTEGER PRIMARY KEY, 
+    company TEXT NOT NULL, 
+    position TEXT NOT NULL, 
+    status TEXT NOT NULL DEFAULT 'WISHLIST', 
+    location TEXT, 
+    notes TEXT, 
+    created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP, 
+    updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+)
