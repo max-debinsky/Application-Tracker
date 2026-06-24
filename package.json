@@ -9,6 +9,7 @@
   },
   "author": "Maksymilian Dębiński",
   "license": "MIT",
+  "type":"module",
   "dependencies": {
     "express": "^5.2.1"
   }
