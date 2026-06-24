@@ -1,0 +1,15 @@
+{
+  "name": "job-api",
+  "version": "1.0.0",
+  "description": "RESTful job application tracker",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "author": "Maksymilian Dębiński",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
