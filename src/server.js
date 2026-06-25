@@ -1,4 +1,5 @@
 import app from './app.js';
+import './lib/migrate.js';
 
 const port = 3000;
 
