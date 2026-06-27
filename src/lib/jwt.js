@@ -8,5 +8,5 @@ export function signToken(user){
 }
 
 export function verifyToken(token){
-    
+    return  jwt.verify(token, process.env.JWT_SECRET);
 }
