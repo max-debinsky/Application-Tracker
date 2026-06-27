@@ -42,7 +42,7 @@ export async function login({ email, password }) {
 
     if(!valid) throw new ApiError(401, "Invalid credentials.");
 
-    const token = signToken(result);
+    const token = signToken(user);
 
     return { user: { id: user.id, email: user.email, name: user.name, created_at: user.created_at }, token };
 }
